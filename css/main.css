@@ -32,8 +32,8 @@ h1 {
   color: #fff;
 }
 
-body {
-  margin: 0;
+header {
+  margin: -1em;
   padding: .6em;
   background-color: #ffe500;
 }
