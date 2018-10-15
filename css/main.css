@@ -56,6 +56,10 @@ h2 {
   text-decoration: none;
 }
 
+p {
+  padding-bottom: .75em;
+}
+
 footer {
   margin: -1em;
   padding: .2em;
