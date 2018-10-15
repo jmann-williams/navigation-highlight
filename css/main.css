@@ -27,11 +27,6 @@ h1 {
 .berries li {
   display: inline-block;
   margin: 0;
-  padding: .5em;
-  background-color: #b2a212;
-  border-radius: 4px;
-  text-align: center;
-  color: #fff;
 }
 
 header {
@@ -43,17 +38,23 @@ header {
 h2 {
   font-family: Sigmar One, cursive;
   color: #cc1465;
-  font-size: `1.875rem;
+  font-size: 1.875rem;
 }
 
-.berries li:hover {
+.berries a:hover {
   background-color: #cc1465;
   color: #fff;
 }
 
 .berries a {
+  display: inline-block;
   color: #fff;
   text-decoration: none;
+  padding: .5em;
+  background-color: #b2a212;
+  border-radius: 4px;
+  text-align: center;
+  color: #fff;
 }
 
 p {
@@ -69,4 +70,8 @@ footer {
 
 img {
   width: 100%;
+}
+
+.berries .current {
+  background-color: #b20953;
 }
