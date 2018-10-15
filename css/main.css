@@ -1,0 +1,45 @@
+html {
+  box-sizing: border-box;
+  background-color: #fff;
+  font-family: Georgia, serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  text-align: center;
+  font-family: Sigmar One, cursive;
+  color: #cc1465;
+}
+
+.berries {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+.berries li {
+  display: inline-block;
+  margin: 0;
+  padding: .75em;
+  background-color: #b2a212;
+  border-radius: 5px;
+  text-align: center;
+  color: #fff;
+}
+
+body {
+  margin: 0;
+  padding: .6em;
+  background-color: #ffe500;
+}
+
+
+.berries li:hover {
+  background-color: #cc1465;
+  color: #fff;
+}
