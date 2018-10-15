@@ -13,6 +13,8 @@ h1 {
   text-align: center;
   font-family: Sigmar One, cursive;
   color: #cc1465;
+  font-size: 3rem;
+  margin: -.075em;
 }
 
 .berries {
@@ -27,7 +29,7 @@ h1 {
   margin: 0;
   padding: .5em;
   background-color: #b2a212;
-  border-radius: 5px;
+  border-radius: 4px;
   text-align: center;
   color: #fff;
 }
@@ -38,6 +40,11 @@ header {
   background-color: #ffe500;
 }
 
+h2 {
+  font-family: Sigmar One, cursive;
+  color: #cc1465;
+  font-size: `1.875rem;
+}
 
 .berries li:hover {
   background-color: #cc1465;
@@ -47,4 +54,11 @@ header {
 .berries a {
   color: #fff;
   text-decoration: none;
+}
+
+footer {
+  margin: -1em;
+  padding: .2em;
+  background-color: #ffe500;
+  text-align: center;
 }
