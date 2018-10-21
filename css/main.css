@@ -11,7 +11,7 @@ html {
 
 h1 {
   text-align: center;
-  font-family: Sigmar One, cursive;
+  font-family: "Sigmar One", cursive;
   color: #cc1465;
   font-size: 3rem;
   margin: -.075em;
@@ -36,7 +36,7 @@ header {
 }
 
 h2 {
-  font-family: Sigmar One, cursive;
+  font-family: "Sigmar One", cursive;
   color: #cc1465;
   font-size: 1.875rem;
 }
@@ -50,7 +50,7 @@ h2 {
   display: inline-block;
   color: #fff;
   text-decoration: none;
-  padding: .5em;
+  padding: .2em;
   background-color: #b2a212;
   border-radius: 4px;
   text-align: center;
@@ -69,6 +69,7 @@ footer {
 }
 
 img {
+  display: block;
   width: 100%;
 }
 
